@@ -1,6 +1,6 @@
 #!/bin/bash -xe
 #
-# Copyright (c) 2019, 2021 Oracle and/or its affiliates. All rights reserved.
+# Copyright (c) 2019, 2022 Oracle and/or its affiliates. All rights reserved.
 #
 # This program and the accompanying materials are made available under the
 # terms of the Eclipse Public License v. 2.0, which is available at
@@ -34,7 +34,7 @@ cd $WORKSPACE
 export GF_HOME="${WORKSPACE}"
 
 if [ -z "$GF_TOPLEVEL_DIR" ]; then
-  export GF_TOPLEVEL_DIR=glassfish6
+  export GF_TOPLEVEL_DIR=glassfish7
 fi
 
 WGET_PROPS="--progress=bar:force --no-cache"
